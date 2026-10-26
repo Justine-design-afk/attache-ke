@@ -1,0 +1,28 @@
+
+:root{
+    --bg-links:#6bf188;
+    --bg-pics:#5ee0b9;
+    --bg-soft:#fcf1f1;
+}
+
+/* homepage styling */
+.navbar{
+    background-color: var(--bg-soft);
+}
+.nav-link{
+    color: var(--bg-links);
+}
+.card{
+    background-color: var(--bg-soft);
+    border: #ffc0cb;
+    transition: transform 0.2 ease, box shadow 0.2s ease;
+}
+.card:hover{
+    transform: translateY(-4px);
+    box-shadow: 19px 2px 17px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 19px 2px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 19px 2px 17px 0px rgba(0,0,0,0.75);
+}
+.footer{
+    background-color: var(--bg-soft);
+}
