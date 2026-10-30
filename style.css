@@ -1,33 +1,54 @@
-
-:root{
-    --bg-links:#6bf188;
-    --bg-pics:#5ee0b9;
-    --bg-soft:#fcf1f1;
+:root {
+    --bg-links: #6bf188;
+    --bg-pics: #5ee0b9;
+    --bg-soft: #fcf1f1;
 }
 
 /* homepage styling */
-.navbar{
+.navbar {
     background-color: var(--bg-soft);
 }
-.nav-link{
+
+.nav-link {
     color: var(--bg-links);
 }
-.card{
+
+.card {
     background-color: var(--bg-soft);
     border: #ffc0cb;
     transition: transform 0.2 ease, box shadow 0.2s ease;
 }
-.card:hover{
+
+.card:hover {
     transform: translateY(-4px);
-    box-shadow: 19px 2px 17px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 19px 2px 17px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 19px 2px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 19px 2px 17px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 19px 2px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 19px 2px 17px 0px rgba(0, 0, 0, 0.75);
 }
-.footer{
+
+.footer {
     background-color: var(--bg-soft);
 }
 
 /* organisations page */
-.reasons_2{
+.reasons_2 {
     background-color: #f5f0f0;
+}
+
+.picha {
+    height: auto;
+}
+
+/*  signup page*/
+.register {
+    text-align: center;
+}
+
+.details{
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    background-color: var(--bg-soft);
+    
+
 }
